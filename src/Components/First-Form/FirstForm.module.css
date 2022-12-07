@@ -1,0 +1,59 @@
+.from_box{
+    max-width: 450px;
+    width: 100%;
+    margin: auto;
+    background: #ffffff;
+    box-shadow: 0px 14px 80px rgb(34 35 58 / 20%);
+    padding: 40px 55px 45px 55px;
+    border-radius: 15px;
+    transition: all 0.3s;
+}
+label{
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
+    margin: 10px 0 5px 0;
+}
+.text_input{
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    outline: none;
+}
+.text_input:focus{
+    border-color: #167bff;
+    box-shadow: none;
+}
+.check_box{
+    display: flex;
+    align-items: center;
+}
+.check_box_check{
+    display: block;
+    margin: 8px 0 0 10px;
+}
+.submit_btn{
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #1d9bf0;
+    border: none;
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    transition: color .15s;
+    margin-top: 20px;
+}
